@@ -16,6 +16,7 @@ RSpec.describe "Articles", type: :request do
         { id: 1, title: 'Article 1', minutes_to_read: 10, author: 'author', preview: 'paragraph 1' }
       ])
     end
+    
   end
 
   describe "GET /articles/:id" do
